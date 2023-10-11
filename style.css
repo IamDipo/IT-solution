@@ -183,6 +183,7 @@ ul li a:hover{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
     width: 20rem;
+    color: #222f54;
     line-height: 1.3;
     padding-bottom: 4rem;
     margin-top: -4rem;
@@ -542,4 +543,1899 @@ footer{
 .footer-p{
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .navbar{
+        width: 100vw;
+        min-height: auto;
+        background: #010959;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .LHS{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    ul{
+        text-decoration: none;
+        display: flex;
+        list-style-type: none;
+        gap: 2rem;
+    }
+    
+    ul li a{
+        font-size: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        transition: ease-out 300ms;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+    }
+    .navbar-btn{
+        padding: 0.7rem 1.5rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #010959;
+        color: white;
+        border: 0.2rem solid white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .navbar-btn:hover{
+        background-color: white;
+        color: #ff5684;
+        transition: 0.3s ease-in-out;
+    }
+    .page1{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #010959;
+        color: white;
+        padding-bottom: 8rem;
+    }
+    .page1-text{
+        margin-left: 6rem;
+    }
+    .page1-img{
+        width: 900px;
+        height: 500px;
+        position: relative;
+        margin-left: -9rem;
+    }
+    .page1-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+    .page1-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3.5rem;
+        line-height: 1.3;
+        font-weight: bolder;
+        width: 30rem;
+    }
+    .page1-p{
+        font-family: 'Mulish', sans-serif;
+        line-height: 1.2;
+        font-size: 1.2rem;
+        width: 30rem;
+    }
+    .page4{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #020956;
+        color: white;
+        padding-bottom: 4rem;
+        gap: 4rem;
+    }
+    .page4-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+        margin-top: 8rem;
+        line-height: 1.3;
+    }
+    .page4-h4{
+        line-height: 1.3;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page4-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.5rem;
+        width: 28rem;
+    }
+    .page4-p{
+        font-family: 'Mulish', sans-serif;
+        width: 34rem;
+        font-size: 1.2rem;
+    }
+    .boxes{
+        display: flex;
+        gap: 2rem;
+    }
+    .box{
+        width: 16rem;
+        height: 16rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 2rem;
+        border: 0.1rem solid gray;
+        transition: 0.5s ease-in-out;
+    }
+    .box:hover{
+        width: 16rem;
+        height: 16rem;
+        background-color: rgb(98, 93, 93);
+        transform: scale(1)
+    }
+    .page4-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.3rem;
+        width: 10rem;
+        line-height: 1.3;
+        cursor: pointer;
+    }
+    .link a{
+        color: white;
+        transition: 0.5s;
+    }
+    .page7{
+        margin-top: 4rem;
+        width: 100vw;
+        height: 50vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        background-image: url(./images/section_bg01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .circ{
+        width: 5rem;
+        height: 5rem;
+        background-color: #ff5684;
+        border-radius: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .fa-play{
+        font-size: 2rem;
+    }
+    .page7-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        width: 42rem;
+    }
+    .page7-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: white;
+        color: #ff5684;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .page7-btn:hover{
+        border: none;
+        color: white;
+        background-color: #020956;
+    }
+    .page8{
+        margin-top: 4rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #020956;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+        gap: 6rem;
+    }
+    .page8-one{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page8-one img{
+        width: 8rem;
+        height: 2rem;
+    }
+    .page8-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+        width: 20rem;
+        color: #020956;
+    }
+    .page8-a{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #020956;
+    }
+    .page8a{
+        font-size: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #020956;
+    }
+    .page8-two{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .page8-two ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1.5rem;
+    }
+    .page8-h4{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .page8-two ul li a{
+        font-size: 1rem;
+        font-family: 'Mulish', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        text-wrap: nowrap;
+        color: #020956;
+        transition: ease-out 300ms;
+    }
+    .page8-two ul li a:hover{
+        text-decoration: underline;
+    }
+    .lala{
+        margin-top: 2.2rem;
+    }
+    .page8-three{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    .pa{
+        width: 25rem;
+    }
+    .email{
+        width: 23rem;
+        height: 3rem;
+        border-radius: 5rem;
+        outline: none;
+        padding: 0 3%;
+        border: 0.1rem solid #010959;
+    }
+    .fa-arrow-right{
+        position: relative;
+        margin-left: -2rem;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .icons a{
+        color: #020956;
+        transition: 0.5s ease-out;
+    }
+    .icons a:hover{
+        transform: rotateY(180deg);
+        color: #ff5684;
+    }
+    footer{
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .footer-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:996px){
+    .navbar{
+        width: 100vw;
+        min-height: auto;
+        background: #010959;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2rem 2rem;
+    }
+    .LHS{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    ul{
+        text-decoration: none;
+        display: flex;
+        list-style-type: none;
+        gap: 2rem;
+    }
+    
+    ul li a{
+        font-size: 0.9rem;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        transition: ease-out 300ms;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+    }
+    .navbar-btn{
+        padding: 0.7rem 1rem;
+        border-radius: 1.2rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #010959;
+        color: white;
+        border: 0.2rem solid white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .navbar-btn:hover{
+        background-color: white;
+        color: #ff5684;
+        transition: 0.3s ease-in-out;
+    }
+    .page1{
+        width: 100vw;
+        display: flex;
+        height: 50vh;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #010959;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        color: white;
+        padding-bottom: 8rem;
+    }
+    .page1-text{
+        margin-left: 2rem;
+    }
+    .page1-img{
+        width: 750px;
+        height: 350px;
+        position: relative;
+        margin-left: -8rem;
+    }
+    .page1-btn{
+        padding: 0.7rem 1rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+    .page1-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        line-height: 1.3;
+        width: 30rem;
+    }
+    .page1-p{
+        font-family: 'Mulish', sans-serif;
+        line-height: 1.1;
+        font-size: 1.2rem;
+        width: 30rem;
+    }
+    .page2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding-bottom: 8rem;
+    }
+    .page2-top{
+        padding-top: 8rem;
+        text-align: center;
+    }
+    .page2-h4{
+        font-size: 1.1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page2-h1{
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        width: 40rem;
+        font-weight: bolder;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .page2-con{
+        display: flex;
+        gap: 1rem;
+    }
+    .con{
+        width: 18rem;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        color: black;
+        border: none;
+        text-align: center;
+        border-radius: 0.5rem;
+        transition: 0.3s all;
+    }
+    .con:hover{
+        transform: translateY(0px);
+        background-color: #ff5684;
+        color: white;
+    }
+    .circle{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .con-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .con-p{
+        font-family: 'Mulish', sans-serif;
+        width: 15rem;
+    }
+    .page3{
+        width: 100vw;
+        background-color: #f6f9fc;
+        display: flex;
+        align-items: center;
+        height: 70vh;
+        justify-content: center;
+        gap: 6rem;
+    }
+    .page3-LHS img{
+        width: 390px;
+        height: 440px;
+    }
+    .img-txt{
+        display: flex;
+        gap: 2rem;
+    }
+    .page3-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        width: 15rem;
+        color: #222f54;
+        line-height: 1.3;
+        /* padding-bottom: 4rem; */
+        margin-top: -2rem;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .txt-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .txt-p{
+        font-family: 'Mulish', sans-serif;
+        width: 20rem;
+    }
+    .two{
+        margin-top: 3rem;
+    }
+    .page3-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 4rem;
+    }
+    .page4{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #020956;
+        color: white;
+        padding-bottom: 4rem;
+        gap: 4rem;
+    }
+    .page4-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+        /* padding-left: 4rem;
+        padding-right: 4rem; */
+        margin-top: 8rem;
+        line-height: 1.3;
+    }
+    .page4-h4{
+        line-height: 1.3;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page4-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        width: 22rem;
+    }
+    .page4-p{
+        font-family: 'Mulish', sans-serif;
+        width: 20rem;
+        font-size: 1.1rem;
+    }
+    .boxes{
+        display: flex;
+        gap: 1.5rem;
+        padding-left: 4rem 4rem;
+    }
+    .box{
+        width: 14rem;
+        height: 14rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 2rem;
+        border: 0.1rem solid gray;
+        transition: 0.5s ease-in-out;
+    }
+    .box:hover{
+        width: 14rem;
+        height: 14rem;
+        background-color: rgb(98, 93, 93);
+        transform: scale(1)
+    }
+    .page4-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+        width: 10rem;
+        line-height: 1.3;
+        cursor: pointer;
+    }
+    .link{
+        text-wrap: nowrap;
+    }
+    .link a{
+        color: white;
+        transition: 0.5s;
+    }
+    .page5{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .page5-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .page5-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        color: #020956;
+    }
+    .page5-p{
+        font-family: 'Mulish', sans-serif;
+        width: 42rem;
+        font-size: 1.1rem;
+    }
+    .page5-con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .page5-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: white;
+        color: #ff5684;
+        border: 0.1rem solid #ff5684;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .page5-btn:hover{
+        border: none;
+        color: white;
+        background-color: #020956;
+    }
+    .cons{
+        width: 16rem;
+        height: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: center;
+    }
+    .cons-p{
+        width: 18rem;
+        color: #020956;
+    }
+    .page5-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #020956;
+    }
+    .page6{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+    .page6-top{
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .page6-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #020956;
+    }
+    .page6-box img{
+        width: 262px;
+        height: 200px;
+    }
+    .page6-imgs{
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    .page6-imgs:hover{
+        transform: scale(1)
+    }
+    .page6-h3{
+        color: #020956;
+        font-size: 1.1rem;
+        width: 18rem;
+        padding-top: 1.5rem;
+    }
+    .page8{
+        margin-top: 4rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #020956;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+    }
+    .page8-one{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page8-one img{
+        width: 8rem;
+        height: 2rem;
+    }
+    .page8-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+        width: 15rem;
+        color: #020956;
+    }
+    .page8-a{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #020956;
+    }
+    .page8a{
+        font-size: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #020956;
+    }
+    .page8-two{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .page8-two ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1.5rem;
+    }
+    .page8-h4{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .page8-two ul li a{
+        font-size: 1rem;
+        font-family: 'Mulish', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        text-wrap: nowrap;
+        color: #020956;
+        transition: ease-out 300ms;
+    }
+    .page8-two ul li a:hover{
+        text-decoration: underline;
+    }
+    .lala{
+        margin-top: 2.2rem;
+    }
+    .page8-three{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    .pa{
+        width: 15rem;
+    }
+    .email{
+        width: 12rem;
+        height: 3rem;
+        border-radius: 5rem;
+        outline: none;
+        padding: 0 3%;
+        border: 0.1rem solid #010959;
+    }
+    .fa-arrow-right{
+        position: relative;
+        margin-left: -2rem;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .icons a{
+        color: #020956;
+        transition: 0.5s ease-out;
+    }
+    .icons a:hover{
+        transform: rotateY(180deg);
+        color: #ff5684;
+    }
+    footer{
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .footer-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        width: 100vw;
+        min-height: auto;
+        background: #010959;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+    .LHS{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    ul{
+        text-decoration: none;
+        display: none;
+        list-style-type: none;
+        gap: 2rem;
+    }
+    
+    ul li a{
+        font-size: 0.9rem;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        transition: ease-out 300ms;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+    }
+    .navbar-btn{
+        padding: 0.7rem 1rem;
+        border-radius: 1.2rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #010959;
+        color: white;
+        border: 0.2rem solid white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .navbar-btn:hover{
+        background-color: white;
+        color: #ff5684;
+        transition: 0.3s ease-in-out;
+    }
+    .page1{
+        width: 100vw;
+        display: flex;
+        height: 50vh;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #010959;
+        padding-right: 3rem;
+        color: white;
+        padding-bottom: 8rem;
+    }
+    .page1-text{
+        margin-left: 1rem;
+    }
+    .page1-img{
+        width: 550px;
+        height: 250px;
+        position: relative;
+        margin-left: -6rem;
+    }
+    .page1-btn{
+        padding: 0.7rem 1rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+    .page1-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        line-height: 1.2;
+        width: 20rem;
+    }
+    .page1-p{
+        font-family: 'Mulish', sans-serif;
+        line-height: 1.1;
+        font-size: 1rem;
+        width: 17rem;
+    }
+    .page2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding-bottom: 8rem;
+    }
+    .page2-top{
+        padding-top: 8rem;
+        text-align: center;
+    }
+    .page2-h4{
+        font-size: 1.1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page2-h1{
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        width: 30rem;
+        font-weight: bolder;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .page2-con{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .con{
+        width: 18rem;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        color: black;
+        border: none;
+        text-align: center;
+        border-radius: 0.5rem;
+        transition: 0.3s all;
+    }
+    .con:hover{
+        transform: translateY(0px);
+        background-color: #ff5684;
+        color: white;
+    }
+    .circle{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .con-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .con-p{
+        font-family: 'Mulish', sans-serif;
+        width: 15rem;
+    }
+    .page3{
+        width: 100vw;
+        background-color: #f6f9fc;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        justify-content: flex-start;
+        padding-left: 4rem;
+        gap: 4rem;
+        padding-bottom: 6rem;
+    }
+    .page3-LHS img{
+        margin-top: 3rem;
+        width: 540px;
+        height: 540px;
+    }
+    .img-txt{
+        display: flex;
+        gap: 2rem;
+    }
+    .page3-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        width: 15rem;
+        color: #222f54;
+        line-height: 1.3;
+        /* padding-bottom: 4rem; */
+        margin-top: -2rem;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .txt-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .txt-p{
+        font-family: 'Mulish', sans-serif;
+        width: 20rem;
+    }
+    .two{
+        margin-top: 3rem;
+    }
+    .page3-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 2.5rem;
+        margin-bottom: 12rem;
+    }
+    .page4{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #020956;
+        color: white;
+        padding-bottom: 4rem;
+        gap: 4rem;
+    }
+    .page4-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 8rem;
+        line-height: 1.3;
+    }
+    .page4-h4{
+        line-height: 1.3;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page4-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        width: 22rem;
+    }
+    .page4-p{
+        font-family: 'Mulish', sans-serif;
+        width: 20rem;
+        font-size: 1.1rem;
+    }
+    .boxes{
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4rem 4rem;
+    }
+    .box{
+        width: 14rem;
+        height: 14rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 2rem;
+        border: 0.1rem solid gray;
+        transition: 0.5s ease-in-out;
+    }
+    .box:hover{
+        width: 14rem;
+        height: 14rem;
+        background-color: rgb(98, 93, 93);
+        transform: scale(1)
+    }
+    .page4-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+        width: 10rem;
+        line-height: 1.3;
+        cursor: pointer;
+    }
+    .link{
+        text-wrap: nowrap;
+    }
+    .link a{
+        color: white;
+        transition: 0.5s;
+    }
+    .page5{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .page5-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .page5-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        color: #020956;
+    }
+    .page5-p{
+        font-family: 'Mulish', sans-serif;
+        width: 42rem;
+        font-size: 1.1rem;
+    }
+    .page5-con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+    .page5-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: white;
+        color: #ff5684;
+        border: 0.1rem solid #ff5684;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .page5-btn:hover{
+        border: none;
+        color: white;
+        background-color: #020956;
+    }
+    .cons{
+        width: 16rem;
+        height: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: center;
+    }
+    .cons-p{
+        width: 18rem;
+        color: #020956;
+    }
+    .page5-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #020956;
+    }
+    .page6{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+    .page6-top{
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .page6-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #020956;
+    }
+    .page6-box img{
+        width: 212px;
+        height: 150px;
+    }
+    .page6-imgs{
+        display: flex;
+        gap: 2rem;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    .page6-imgs:hover{
+        transform: scale(1)
+    }
+    .page6-h3{
+        color: #020956;
+        font-size: 1.1rem;
+        width: 12rem;
+        padding-top: 1.5rem;
+    }
+    .page8{
+        margin-top: 4rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #020956;
+        flex-wrap: wrap;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+    }
+    .page8-one{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page8-one img{
+        width: 8rem;
+        height: 2rem;
+    }
+    .page8-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+        width: 20rem;
+        color: #020956;
+    }
+    .page8-a{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #020956;
+    }
+    .page8a{
+        font-size: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #020956;
+    }
+    .page8-two{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .page8-two ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1.5rem;
+    }
+    .page8-h4{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .page8-two ul li a{
+        font-size: 1rem;
+        font-family: 'Mulish', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        text-wrap: nowrap;
+        color: #020956;
+        transition: ease-out 300ms;
+    }
+    .page8-two ul li a:hover{
+        text-decoration: underline;
+    }
+    .lala{
+        margin-top: 2.2rem;
+    }
+    .page8-three{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    .pa{
+        width: 20rem;
+    }
+    .email{
+        width: 18rem;
+        height: 3rem;
+        border-radius: 5rem;
+        outline: none;
+        padding: 0 3%;
+        border: 0.1rem solid #010959;
+    }
+    .fa-arrow-right{
+        position: relative;
+        margin-left: -2rem;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .icons a{
+        color: #020956;
+        transition: 0.5s ease-out;
+    }
+    .icons a:hover{
+        transform: rotateY(180deg);
+        color: #ff5684;
+    }
+    footer{
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .footer-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .navbar{
+        width: 100vw;
+        min-height: auto;
+        background: #010959;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+    .LHS{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    ul{
+        text-decoration: none;
+        display: none;
+        list-style-type: none;
+        gap: 2rem;
+    }
+    
+    ul li a{
+        font-size: 0.9rem;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        transition: ease-out 300ms;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+    }
+    .navbar-btn{
+        padding: 0.7rem 1rem;
+        border-radius: 1.2rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #010959;
+        color: white;
+        border: 0.2rem solid white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .navbar-btn:hover{
+        background-color: white;
+        color: #ff5684;
+        transition: 0.3s ease-in-out;
+    }
+    .page1{
+        width: 100vw;
+        display: flex;
+        height: 50vh;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #010959;
+        padding-right: 3rem;
+        color: white;
+        padding-bottom: 8rem;
+    }
+    .page1-text{
+        margin-left: 1rem;
+    }
+    .page1-img{
+        display: none;
+        width: 550px;
+        height: 250px;
+        position: relative;
+        margin-left: -6rem;
+    }
+    .page1-btn{
+        padding: 0.7rem 1rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+    .page1-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        line-height: 1.2;
+        width: 27rem;
+    }
+    .page1-p{
+        font-family: 'Mulish', sans-serif;
+        line-height: 1.3;
+        font-size: 1.1rem;
+        width: 30rem;
+    }
+    .page2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding-bottom: 8rem;
+    }
+    .page2-top{
+        padding-top: 8rem;
+        text-align: center;
+    }
+    .page2-h4{
+        font-size: 1.1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page2-h1{
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        width: 30rem;
+        font-weight: bolder;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .page2-con{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .con{
+        width: 15rem;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        color: black;
+        border: none;
+        text-align: center;
+        border-radius: 0.5rem;
+        transition: 0.3s all;
+    }
+    .con:hover{
+        transform: translateY(0px);
+        background-color: #ff5684;
+        color: white;
+    }
+    .circle{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .con-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+        width: 12rem;
+        font-weight: bolder;
+    }
+    .con-p{
+        font-family: 'Mulish', sans-serif;
+        width: 13rem;
+    }
+    .page3{
+        width: 100vw;
+        background-color: #f6f9fc;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        justify-content: flex-start;
+        padding-left: 4rem;
+        gap: 4rem;
+        padding-bottom: 6rem;
+    }
+    .page3-LHS img{
+        margin-top: 3rem;
+        width: 400px;
+        height: 440px;
+    }
+    .img-txt{
+        display: flex;
+        gap: 2rem;
+    }
+    .page3-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        width: 15rem;
+        color: #222f54;
+        line-height: 1.3;
+        /* padding-bottom: 4rem; */
+        margin-top: -2rem;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .txt-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .txt-p{
+        font-family: 'Mulish', sans-serif;
+        width: 20rem;
+    }
+    .two{
+        margin-top: 3rem;
+    }
+    .page3-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ff5684;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 2.5rem;
+        margin-bottom: 12rem;
+    }
+    .page4{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #020956;
+        color: white;
+        padding-bottom: 4rem;
+        gap: 4rem;
+    }
+    .page4-top{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 8rem;
+        line-height: 1.3;
+    }
+    .page4-h4{
+        line-height: 1.3;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ff5684;
+    }
+    .page4-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        width: 22rem;
+    }
+    .page4-p{
+        font-family: 'Mulish', sans-serif;
+        width: 20rem;
+        font-size: 1.1rem;
+    }
+    .boxes{
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4rem 4rem;
+    }
+    .box{
+        width: 14rem;
+        height: 14rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 2rem;
+        border: 0.1rem solid gray;
+        transition: 0.5s ease-in-out;
+    }
+    .box:hover{
+        width: 14rem;
+        height: 14rem;
+        background-color: rgb(98, 93, 93);
+        transform: scale(1)
+    }
+    .page4-h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+        width: 10rem;
+        line-height: 1.3;
+        cursor: pointer;
+    }
+    .link{
+        text-wrap: nowrap;
+    }
+    .link a{
+        color: white;
+        transition: 0.5s;
+    }
+    .page5{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .page5-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .page5-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        color: #020956;
+    }
+    .page5-p{
+        font-family: 'Mulish', sans-serif;
+        width: 30rem;
+        font-size: 1.1rem;
+    }
+    .page5-con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+    .page5-btn{
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: white;
+        color: #ff5684;
+        border: 0.1rem solid #ff5684;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .page5-btn:hover{
+        border: none;
+        color: white;
+        background-color: #020956;
+    }
+    .cons{
+        width: 14rem;
+        height: 14rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: center;
+    }
+    .cons-p{
+        width: 13rem;
+        color: #020956;
+    }
+    .page5-h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color: #020956;
+    }
+    .page6{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+    .page6-top{
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .page6-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #020956;
+    }
+    .page6-box img{
+        width: 212px;
+        height: 150px;
+    }
+    .page6-imgs{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    .page6-imgs:hover{
+        transform: scale(1)
+    }
+    .page6-h3{
+        color: #020956;
+        font-size: 1.1rem;
+        width: 14rem;
+        padding-top: 1.5rem;
+    }
+    .page7-h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        width: 30rem;
+    }
+    .page8{
+        margin-top: 4rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #020956;
+        flex-wrap: wrap;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+    }
+    .page8-one{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page8-one img{
+        width: 8rem;
+        height: 2rem;
+    }
+    .page8-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+        width: 20rem;
+        color: #020956;
+    }
+    .page8-a{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #020956;
+    }
+    .page8a{
+        font-size: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #020956;
+    }
+    .page8-two{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .page8-two ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1.5rem;
+    }
+    .page8-h4{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .page8-two ul li a{
+        font-size: 1rem;
+        font-family: 'Mulish', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        text-wrap: nowrap;
+        color: #020956;
+        transition: ease-out 300ms;
+    }
+    .page8-two ul li a:hover{
+        text-decoration: underline;
+    }
+    .lala{
+        margin-top: 2.2rem;
+    }
+    .page8-three{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    .pa{
+        width: 20rem;
+    }
+    .email{
+        width: 18rem;
+        height: 3rem;
+        border-radius: 5rem;
+        outline: none;
+        padding: 0 3%;
+        border: 0.1rem solid #010959;
+    }
+    .fa-arrow-right{
+        position: relative;
+        margin-left: -2rem;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .icons a{
+        color: #020956;
+        transition: 0.5s ease-out;
+    }
+    .icons a:hover{
+        transform: rotateY(180deg);
+        color: #ff5684;
+    }
+    footer{
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .footer-p{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+    }
 }
